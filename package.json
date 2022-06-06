@@ -1,0 +1,52 @@
+{
+  "name": "tt-datepicker",
+  "version": "2.0.3",
+  "description": "仿照飞书任务打造时间日期插件",
+  "keywords": [
+    "monthpicker",
+    "timepicker"
+  ],
+  "scripts": {
+    "start:dev": "NODE_ENV=dev webpack-dev-server",
+    "build": "rm -rf ./dist && npx webpack",
+    "lint": "eslint --ext .js src"
+  },
+  "author": "lifenglei",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "dayjs": "^1.11.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.4",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.0.7",
+    "pre-commit": "^1.2.2",
+    "style-loader": "^0.23.0",
+    "sugarss": "^2.0.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
