@@ -160,12 +160,6 @@ window.onload = function () {
     padding: 0 20px;
     -webkit-overflow-scrolling: touch;
   }
-  // .time_group .time_content:nth-child(1){
-  //   background:red;
-  // }
-  // .time_group .time_content:nth-child(2){
-  //   background:green;
-  // }
   .tt-calendar .time_item {
     padding: 11px 0;
     color: #898989;
